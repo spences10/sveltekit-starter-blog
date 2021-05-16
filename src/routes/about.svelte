@@ -14,15 +14,30 @@
       <p class="leading-relaxed text-lg">
         A simple blog starter built with SvelteKit <code
           >graphql-request</code
-        > Tailwind, Tailblocks and GraphCMS for the back end.
+        >
+        <a
+          class="underline text-blue-500 hover:no-underline"
+          href="https://tailwindcss.com/">Tailwind</a
+        >,
+        <a
+          class="underline text-blue-500 hover:no-underline"
+          href="https://tailblocks.cc/"
+        >
+          Tailblocks</a
+        >
+        and
+        <a
+          class="underline text-blue-500 hover:no-underline"
+          href="https://graphcms.com/">GraphCMS</a
+        > for the back end.
       </p>
       <span
         class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"
       />
       <h2
-        class="text-gray-900 font-medium title-font tracking-wider text-sm"
+        class="text-purple-700 font-medium title-font tracking-wider text-lg underline hover:no-underline"
       >
-        Scott Spence
+        <a href="https://scottspence.com">Scott Spence</a>
       </h2>
       <p class="text-gray-500">Web Developer</p>
     </div>
