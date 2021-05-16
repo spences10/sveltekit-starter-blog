@@ -12,6 +12,16 @@ This starter shows how to use the SvelteKit with GraphCMS. It uses
 See the introductory [blog post] on getting started building out this
 project.
 
+You'll need a GraphCMS account and the Blog Starter created, get the
+endpoint from the "API Access" section in the project settings, check
+the "Content from stage Published" checkbox for access.
+
+Rename the `sample.env` file to `.env` and add your endpoint:
+
+```text
+VITE_GRAPHCMS_URL=your-endpoint-here
+```
+
 ### Download Manually
 
 ```bash
