@@ -22,6 +22,9 @@ Rename the `sample.env` file to `.env` and add your endpoint:
 VITE_GRAPHCMS_URL=your-endpoint-here
 ```
 
+Add the `VITE_GRAPHCMS_URL` variable and endpoint to the "Environment
+Variables" section of the Vercel project.
+
 ### Download Manually
 
 ```bash
