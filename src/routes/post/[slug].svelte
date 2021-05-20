@@ -1,4 +1,5 @@
 <script context="module">
+  export const hydrate = false
   import { gql, GraphQLClient } from 'graphql-request'
 
   export async function load(context) {
