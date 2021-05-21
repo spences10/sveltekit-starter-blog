@@ -7,6 +7,8 @@ This starter shows how to use the SvelteKit with GraphCMS. It uses
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/spences10/sveltekit-starter-blog/tree/main)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#/https://github.com/spences10/sveltekit-starter-blog)
+
 ## How to Use
 
 See the introductory [blog post] on getting started building out this
