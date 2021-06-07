@@ -1,28 +1,39 @@
-import { slugFromPath } from '$lib/util'
+import { gql, GraphQLClient } from 'graphql-request'
 
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
 export async function get({ params }) {
-  const modules = import.meta.glob(`./*.{md,svx,svelte.md}`)
-
-  let match
-  for (const [path, resolver] of Object.entries(modules)) {
-    if (slugFromPath(path) === params.slug) {
-      match = [path, resolver]
-      break
+  const graphcms = new GraphQLClient(
+    import.meta.env.VITE_GRAPHCMS_URL,
+    {
+      headers: {},
     }
+  )
+  const query = gql`
+    query PostPageQuery($slug: String!) {
+      post(where: { slug: $slug }) {
+        title
+        date
+        content {
+          html
+        }
+        tags
+        author {
+          name
+          title
+        }
+      }
+    }
+  `
+
+  const variables = {
+    slug: params.slug,
   }
 
-  if (!match) {
-    return {
-      status: 404,
-    }
-  }
-
-  const post = await match[1]()
+  const { post } = await graphcms.request(query, variables)
 
   return {
-    body: post.metadata,
+    body: { post },
   }
 }
