@@ -14,12 +14,15 @@
 </script>
 
 <script>
+  import PageHead from '$lib/page-head.svelte'
+
   export let posts
 </script>
 
-<svelte:head>
-  <title>SvelteKit starter blog</title>
-</svelte:head>
+<PageHead
+  title="Home"
+  description="An awesome blog about development with Svelte"
+/>
 
 <section class="text-gray-600 body-font overflow-hidden">
   <div class="container mx-auto">

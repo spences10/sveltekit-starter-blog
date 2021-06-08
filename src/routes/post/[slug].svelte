@@ -15,12 +15,15 @@
 </script>
 
 <script>
+  import PageHead from '$lib/page-head.svelte'
+
   export let post
 </script>
 
-<svelte:head>
-  <title>{post.title}</title>
-</svelte:head>
+<PageHead
+  title={post.title}
+  description="An awesome blog about development with Svelte"
+/>
 
 <h1 class="text-4xl title-font font-semibold text-gray-900 mb-2">
   {post.title}
