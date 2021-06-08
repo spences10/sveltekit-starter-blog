@@ -1,34 +1,10 @@
 <script context="module">
   export const hydrate = false
-  import { gql, GraphQLClient } from 'graphql-request'
 
-  export async function load() {
-    const graphcms = new GraphQLClient(
-      import.meta.env.VITE_GRAPHCMS_URL,
-      {
-        headers: {},
-      }
+  export async function load({ fetch }) {
+    const { posts } = await fetch('/post.json?limit=2').then(res =>
+      res.json()
     )
-
-    const query = gql`
-      query Posts {
-        posts {
-          id
-          title
-          slug
-          tags
-          date
-          excerpt
-          author {
-            name
-            title
-          }
-        }
-      }
-    `
-
-    const { posts } = await graphcms.request(query)
-
     return {
       props: {
         posts,

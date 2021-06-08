@@ -1,38 +1,11 @@
 <script context="module">
   export const hydrate = false
-  import { gql, GraphQLClient } from 'graphql-request'
 
   export async function load(context) {
-    const graphcms = new GraphQLClient(
-      import.meta.env.VITE_GRAPHCMS_URL,
-      {
-        headers: {},
-      }
+    const { slug } = context.page.params
+    const { post } = await fetch(`/post/${slug}.json`).then(res =>
+      res.json()
     )
-
-    const query = gql`
-      query PostPageQuery($slug: String!) {
-        post(where: { slug: $slug }) {
-          title
-          date
-          content {
-            html
-          }
-          tags
-          author {
-            name
-            title
-          }
-        }
-      }
-    `
-
-    const variables = {
-      slug: context.page.params.slug,
-    }
-
-    const { post } = await graphcms.request(query, variables)
-
     return {
       props: {
         post,
