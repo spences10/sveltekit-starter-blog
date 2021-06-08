@@ -13,7 +13,7 @@ export async function get({ query }) {
 
   const gqlQuery = gql`
     query Posts {
-      posts {
+      posts(last: ${query.get('limit')}) {
         id
         title
         slug
