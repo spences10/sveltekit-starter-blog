@@ -13,7 +13,7 @@
     "@sveltejs/kit": "next",
     "autoprefixer": "10.4.0",
     "cssnano": "5.0.12",
-    "eslint": "8.3.0",
+    "eslint": "8.4.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-svelte3": "3.2.1",
     "graphql": "16.0.1",
