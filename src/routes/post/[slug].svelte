@@ -1,8 +1,6 @@
 <script context="module">
-  export const hydrate = false
-
-  export async function load(context) {
-    const { slug } = context.page.params
+  export async function load({ params }) {
+    const { slug } = params
     const { post } = await fetch(`/post/${slug}.json`).then(res =>
       res.json()
     )

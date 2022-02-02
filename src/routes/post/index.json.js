@@ -3,7 +3,7 @@ import { gql, GraphQLClient } from 'graphql-request'
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
-export async function get({ query }) {
+export async function get({ url }) {
   const graphcms = new GraphQLClient(
     import.meta.env.VITE_GRAPHCMS_URL,
     {
@@ -13,7 +13,7 @@ export async function get({ query }) {
 
   const gqlQuery = gql`
     query Posts {
-      posts(last: ${query.get('limit')}) {
+      posts(last: ${url.searchParams.get('limit')}) {
         id
         title
         slug
