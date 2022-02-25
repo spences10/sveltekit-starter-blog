@@ -7,7 +7,7 @@ specifiers:
   cssnano: 5.0.17
   eslint: 8.9.0
   eslint-config-prettier: 8.4.0
-  eslint-plugin-svelte3: 3.4.0
+  eslint-plugin-svelte3: 3.4.1
   graphql: 16.3.0
   graphql-request: 4.0.0
   postcss: 8.4.6
@@ -20,12 +20,12 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.23
-  '@sveltejs/kit': 1.0.0-next.278_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.285_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.6
   cssnano: 5.0.17_postcss@8.4.6
   eslint: 8.9.0
   eslint-config-prettier: 8.4.0_eslint@8.9.0
-  eslint-plugin-svelte3: 3.4.0_eslint@8.9.0+svelte@3.46.4
+  eslint-plugin-svelte3: 3.4.1_eslint@8.9.0+svelte@3.46.4
   graphql: 16.3.0
   graphql-request: 4.0.0_graphql@16.3.0
   postcss: 8.4.6
@@ -152,8 +152,8 @@ packages:
       esbuild: 0.14.21
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.278_svelte@3.46.4:
-    resolution: {integrity: sha512-WT93Wnu05X9WG9BMMk/dj0gy6R7iXm9aXRDVgmIl9z8jT2ukejgmkhi5IwBYrK0OMIUALRVfukn+iy+srPc91Q==}
+  /@sveltejs/kit/1.0.0-next.285_svelte@3.46.4:
+    resolution: {integrity: sha512-JwWnCDRJJRWuUWYjvNnjaJjBP4/zarZyL3PnVZQ6cX08CBhd3qfIe+lcdvdUrj+lP+HjSutkX2kEB3dsza9PKg==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -907,8 +907,8 @@ packages:
       eslint: 8.9.0
     dev: true
 
-  /eslint-plugin-svelte3/3.4.0_eslint@8.9.0+svelte@3.46.4:
-    resolution: {integrity: sha512-MIQUTuRv3o7LyQ+360qOc9mLT35j1I5YzHr04g/UDcvJTpg0X/kHWELY99ve869Rp/9wjqD7I26Aq5H8OH5RIg==}
+  /eslint-plugin-svelte3/3.4.1_eslint@8.9.0+svelte@3.46.4:
+    resolution: {integrity: sha512-7p59WG8qV8L6wLdl4d/c3mdjkgVglQCdv5XOTk/iNPBKXuuV+Q0eFP5Wa6iJd/G2M1qR3BkLPEzaANOqKAZczw==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: '>=6.0.0'
