@@ -1,5 +1,5 @@
 /** @type {import('@sveltejs/kit').Config} */
-import adapter from '@sveltejs/adapter-auto'
+import adapter from '@sveltejs/adapter-vercel'
 import preprocess from 'svelte-preprocess'
 
 const config = {
