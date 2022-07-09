@@ -17,7 +17,7 @@ specifiers:
   svelte: 3.49.0
   svelte-preprocess: 4.10.7
   tailwindcss: 3.1.4
-  vite: ^2.9.14
+  vite: 2.9.14
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.59
