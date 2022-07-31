@@ -16,7 +16,7 @@ specifiers:
   prettier-plugin-svelte: 2.7.0
   svelte: 3.49.0
   svelte-preprocess: 4.10.7
-  tailwindcss: 3.1.6
+  tailwindcss: 3.1.7
   vite: 3.0.4
 
 devDependencies:
@@ -35,7 +35,7 @@ devDependencies:
   prettier-plugin-svelte: 2.7.0_o3ioganyptcsrh6x4hnxvjkpqi
   svelte: 3.49.0
   svelte-preprocess: 4.10.7_blrkfmplrezk6jx3arz7bdc3pa
-  tailwindcss: 3.1.6
+  tailwindcss: 3.1.7
   vite: 3.0.4
 
 packages:
@@ -2310,8 +2310,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.1.6:
-    resolution: {integrity: sha512-7skAOY56erZAFQssT1xkpk+kWt2NrO45kORlxFPXUt3CiGsVPhH1smuH5XoDH6sGPXLyBv+zgCKA2HWBsgCytg==}
+  /tailwindcss/3.1.7:
+    resolution: {integrity: sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
