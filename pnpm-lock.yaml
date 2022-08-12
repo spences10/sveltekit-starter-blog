@@ -4,7 +4,7 @@ specifiers:
   '@sveltejs/adapter-vercel': 1.0.0-next.66
   '@sveltejs/kit': next
   autoprefixer: 10.4.8
-  cssnano: 5.1.12
+  cssnano: 5.1.13
   eslint: 8.21.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 4.0.0
@@ -23,7 +23,7 @@ devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.66
   '@sveltejs/kit': 1.0.0-next.405_svelte@3.49.0+vite@3.0.5
   autoprefixer: 10.4.8_postcss@8.4.16
-  cssnano: 5.1.12_postcss@8.4.16
+  cssnano: 5.1.13_postcss@8.4.16
   eslint: 8.21.0
   eslint-config-prettier: 8.5.0_eslint@8.21.0
   eslint-plugin-svelte3: 4.0.0_a7wk4ghvg4hia4trwaglu7p6cq
@@ -586,8 +586,8 @@ packages:
       postcss: 8.4.16
     dev: true
 
-  /cssnano/5.1.12_postcss@8.4.16:
-    resolution: {integrity: sha512-TgvArbEZu0lk/dvg2ja+B7kYoD7BBCmn3+k58xD0qjrGHsFzXY/wKTo9M5egcUCabPol05e/PVoIu79s2JN4WQ==}
+  /cssnano/5.1.13_postcss@8.4.16:
+    resolution: {integrity: sha512-S2SL2ekdEz6w6a2epXn4CmMKU4K3KpcyXLKfAYc9UQQqJRkD/2eLUG0vJ3Db/9OvO5GuAdgXw3pFbR6abqghDQ==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
