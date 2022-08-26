@@ -3,7 +3,7 @@ import { gql, GraphQLClient } from 'graphql-request'
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
-export async function get({ url }) {
+export async function GET({ url }) {
   const graphcms = new GraphQLClient(
     import.meta.env.VITE_GRAPHCMS_URL,
     {
