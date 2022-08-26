@@ -1,3 +1,4 @@
+import { json } from '@sveltejs/kit'
 import { gql, GraphQLClient } from 'graphql-request'
 
 /**
@@ -30,7 +31,5 @@ export async function GET({ url }) {
 
   const { posts } = await graphcms.request(gqlQuery)
 
-  return {
-    body: { posts },
-  }
+  return json({ posts })
 }

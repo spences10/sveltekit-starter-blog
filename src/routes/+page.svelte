@@ -1,20 +1,8 @@
-<script context="module">
-  export async function load({ fetch }) {
-    const { posts } = await fetch('/post.json?limit=2').then(res =>
-      res.json()
-    )
-    return {
-      props: {
-        posts,
-      },
-    }
-  }
-</script>
-
 <script>
   import PageHead from '$lib/page-head.svelte'
 
-  export let posts
+  export let data
+  let { posts } = data
 </script>
 
 <PageHead
