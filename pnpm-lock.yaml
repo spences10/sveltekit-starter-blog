@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/adapter-vercel': 1.0.0-next.66
+  '@sveltejs/adapter-vercel': 1.0.0-next.69
   '@sveltejs/kit': next
   autoprefixer: 10.4.8
   cssnano: 5.1.13
@@ -20,8 +20,8 @@ specifiers:
   vite: 3.0.7
 
 devDependencies:
-  '@sveltejs/adapter-vercel': 1.0.0-next.66
-  '@sveltejs/kit': 1.0.0-next.443_svelte@3.49.0+vite@3.0.7
+  '@sveltejs/adapter-vercel': 1.0.0-next.69
+  '@sveltejs/kit': 1.0.0-next.445_svelte@3.49.0+vite@3.0.7
   autoprefixer: 10.4.8_postcss@8.4.16
   cssnano: 5.1.13_postcss@8.4.16
   eslint: 8.23.0
@@ -141,18 +141,18 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.66:
-    resolution: {integrity: sha512-s3Hcxu9nCG/rR3C3cFbdQGjTa5W4K2kRcc6S5Xefx7itbrw+4v3KpO8ZPB6qM55XDwVxuG7260NMHVI6MUGmSA==}
+  /@sveltejs/adapter-vercel/1.0.0-next.69:
+    resolution: {integrity: sha512-E5mSkD3x3zYuJU5hPRmoqblrKZtEj2lRwhObnXf4OSFsMej2VUzoogbhaXHcVt57j0Ja5HgO07u7v9VUGOhi+w==}
     dependencies:
-      '@vercel/nft': 0.21.0
+      '@vercel/nft': 0.22.0
       esbuild: 0.14.54
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.443_svelte@3.49.0+vite@3.0.7:
-    resolution: {integrity: sha512-Stdjwj6iL/u40O/+20UKTWtCBYxYaKwX2nRV5devrGk5hvq6/FbAqw+azwoWKvNoz3PGtrSmHIyeLcAx8iKQcw==}
+  /@sveltejs/kit/1.0.0-next.445_svelte@3.49.0+vite@3.0.7:
+    resolution: {integrity: sha512-E/d6lhJ+4cSGJmAk8JnlrBwJfa6xYeCZ1zBc8kTdrO/vNiFpMDRJM9pgT8DGlXYA7kI+OBud/p3Eipl5m5jntw==}
     engines: {node: '>=16.9'}
     hasBin: true
     requiresBuild: true
@@ -221,8 +221,8 @@ packages:
       '@types/node': 18.7.13
     dev: true
 
-  /@vercel/nft/0.21.0:
-    resolution: {integrity: sha512-hFCAETfI5cG8l5iAiLhMC2bReC5K7SIybzrxGorv+eGspIbIFsVw7Vg85GovXm/LxA08pIDrAlrhR6GN36XB/Q==}
+  /@vercel/nft/0.22.0:
+    resolution: {integrity: sha512-hB80/093PPiCefN2gVbqv6J93MH+63Zr7uDCwkiS/U4W07DXkLoftbnkBmZoS0Q84LiTSl9DRVSHU4XYCX+sJA==}
     hasBin: true
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.9
