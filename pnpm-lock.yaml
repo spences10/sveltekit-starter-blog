@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/adapter-vercel': 1.0.0-next.81
+  '@sveltejs/adapter-vercel': 1.0.0-next.84
   '@sveltejs/kit': next
   autoprefixer: 10.4.13
   cssnano: 5.1.14
@@ -20,8 +20,8 @@ specifiers:
   vite: 3.2.4
 
 devDependencies:
-  '@sveltejs/adapter-vercel': 1.0.0-next.81
-  '@sveltejs/kit': 1.0.0-next.551_svelte@3.53.1+vite@3.2.4
+  '@sveltejs/adapter-vercel': 1.0.0-next.84
+  '@sveltejs/kit': 1.0.0-next.556_svelte@3.53.1+vite@3.2.4
   autoprefixer: 10.4.13_postcss@8.4.19
   cssnano: 5.1.14_postcss@8.4.19
   eslint: 8.27.0
@@ -146,8 +146,8 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.81:
-    resolution: {integrity: sha512-cuNolQSqabSs97J2hn9bnRDOscihIO+VEYltsc+POLU/ecv7pbUm1qdRakeG3+ehK1mfZ9dub6vEVuLKhm+Qng==}
+  /@sveltejs/adapter-vercel/1.0.0-next.84:
+    resolution: {integrity: sha512-1HoUDSG6EDydRfvrgwlNSlGjCw3vUtSk55ipm6OUVujg2oRve9Ge2+kK2w8ojkZiMuTpWu+plbQMr8yuktoeJQ==}
     dependencies:
       '@vercel/nft': 0.22.1
       esbuild: 0.15.12
@@ -156,8 +156,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.551_svelte@3.53.1+vite@3.2.4:
-    resolution: {integrity: sha512-pZXPoKHFcEXCEN64bw87Xv3cZO7sGztPKYXyLuzceie4qNzAQOMejxewm1xSYcaublleYXLdBWcrWwGlaSWnyw==}
+  /@sveltejs/kit/1.0.0-next.556_svelte@3.53.1+vite@3.2.4:
+    resolution: {integrity: sha512-poCCk0Eqd5uFwEzeoi2KsP+RtjeEoYsg+UMDIEZiNIZtM6lw2CPDZS98TYOFAdLN+pQJJAji8ZNfvcE/rJN+jA==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
