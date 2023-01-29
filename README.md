@@ -44,4 +44,4 @@ npm run dev -- --open
 <!-- Links -->
 
 [blog post]:
-  https://scottspence.com/2021/05/06/graphcms-svelte-strter/
+  https://scottspence.com/2021/05/06/graphcms-svelte-starter/
