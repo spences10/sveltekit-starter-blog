@@ -9,7 +9,7 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-vercel": "1.0.5",
+    "@sveltejs/adapter-vercel": "1.0.6",
     "@sveltejs/kit": "next",
     "autoprefixer": "10.4.13",
     "cssnano": "5.1.14",
