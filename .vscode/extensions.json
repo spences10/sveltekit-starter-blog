@@ -1,17 +1,15 @@
 {
-  // See http://go.microsoft.com/fwlink/?LinkId=827846
-  // for the documentation about the extensions.json format
-  // delte this if you don't want to install the extensions
-  "recommendations": [
-    // Svelte
-    "svelte.svelte-vscode",
-    // Prettier for auto formatting code
-    "esbenp.prettier-vscode",
-    // Svelte intellisense
-    "ardenivanov.svelte-intellisense",
-    // Svelte snippets
-    "fivethree.vscode-svelte-snippets",
-    // Tailwind intellisense
-    "bradlc.vscode-tailwindcss"
-  ]
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+	// delte this if you don't want to install the extensions
+	"recommendations": [
+		// Svelte
+		"svelte.svelte-vscode",
+		// Prettier for auto formatting code
+		"esbenp.prettier-vscode",
+		// Svelte snippets
+		"fivethree.vscode-svelte-snippets",
+		// Tailwind intellisense
+		"bradlc.vscode-tailwindcss"
+	]
 }
